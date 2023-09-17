@@ -35,10 +35,10 @@ export default function Header() {
             <nav ref={myRef} id={showNavbar ? "active-nav" : "nonactive-nav"} >
                 <ul>
                     <li id="close-nav" onClick={handleShowNavbar}><p>X</p></li>
-                    <li><NavLink className={({ isActive }) => (isActive ? 'active' : 'inactive')} to="/" >HOME</NavLink></li>
-                    <li><NavLink className={({ isActive }) => (isActive ? 'active' : 'inactive')} to="/about">ABOUT</NavLink></li>
-                    <li><NavLink className={({ isActive }) => (isActive ? 'active' : 'inactive')} to="/portfolio">PORTFOLIO</NavLink></li>
-                    <li><NavLink className={({ isActive }) => (isActive ? 'activeContact' : 'inactive')} id="contact-link" to="/contact">CONTACT</NavLink></li>
+                    <li><NavLink onClick={handleShowNavbar} className={({ isActive }) => (isActive ? 'active' : 'inactive')} to="/" >HOME</NavLink></li>
+                    <li><NavLink onClick={handleShowNavbar} className={({ isActive }) => (isActive ? 'active' : 'inactive')} to="/about">ABOUT</NavLink></li>
+                    <li><NavLink onClick={handleShowNavbar} className={({ isActive }) => (isActive ? 'active' : 'inactive')} to="/portfolio">PORTFOLIO</NavLink></li>
+                    <li><NavLink onClick={handleShowNavbar} className={({ isActive }) => (isActive ? 'activeContact' : 'inactive')} id="contact-link" to="/contact">CONTACT</NavLink></li>
                 </ul>
             </nav>
         </header>
