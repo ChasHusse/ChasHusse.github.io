@@ -1,4 +1,3 @@
-import portImage2 from "../assets/port-2.png"
 import portImage1 from "../assets/port-1.png"
 
 
