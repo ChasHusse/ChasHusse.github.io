@@ -547,6 +547,9 @@ form button:hover {
 }
 
 #portfolio-div {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
   margin-top: 20px;
 }
 
@@ -570,18 +573,37 @@ form button:hover {
   opacity: 1;
 }
 
+
+
 .port-images {
   width: 40%;
   border-right: 0.5px solid #9c9c9c;
   border-top-left-radius: 3px;
   border-bottom-left-radius: 3px;
-
-
 }
+
+
 
 .port-info {
   padding: 5px 5px 5px 10px;
 }
+
+.portfolio-github {
+  font-size: 18px;
+  font-weight: 400;
+  color: #9c9c9c;
+
+}
+
+.portfolio-github a {
+  color: white;
+  cursor: pointer;
+
+  animation: bounce 2s infinite;
+}
+
+
+
 
 #mobile-nav {
   display: none;
@@ -589,6 +611,15 @@ form button:hover {
 }
 
 #close-nav {
+  display: none;
+  margin-right: 1px;
+
+}
+
+.social-box-nav {
+  justify-content: space-between;
+  padding-right: 22px;
+  margin-top: 40px;
   display: none;
 }
 
@@ -646,6 +677,14 @@ form button:hover {
 
 @media (max-width: 800px) {
 
+  .port-single {
+    opacity: 1;
+  }
+
+  .social-box-nav {
+    display: flex;
+  }
+
   #mobile-nav {
     display: contents;
   }
@@ -658,10 +697,11 @@ form button:hover {
 
   #active-nav {
     padding-left: 20px;
+    padding-right: 20px;
     position: absolute;
     right: 0px;
     top: 0px;
-    padding-top: 20px;
+    padding-top: 15px;
     padding-bottom: 20px;
     background-color: #142132;
     width: 170px;
