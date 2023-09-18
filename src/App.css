@@ -22,15 +22,17 @@ body {
 
 }
 
+
+
 #full-page {
   display: flex;
   flex-direction: column;
 
   width: 1500px;
 
-
-
   min-height: 100vh;
+  /* Use vh as a fallback for browsers that do not support Custom Properties */
+  min-height: calc(var(--vh, 1vh) * 100);
   padding: 30px 100px;
   padding-bottom: 10px;
 
