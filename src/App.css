@@ -134,6 +134,8 @@ img {
 
   width: 10px;
   min-height: 100vh;
+  /* Use vh as a fallback for browsers that do not support Custom Properties */
+  min-height: calc(var(--vh, 1vh) * 100);
 
   opacity: 0.3;
   z-index: -1;
@@ -148,6 +150,9 @@ img {
 
   width: 10px;
   min-height: 100vh;
+  /* Use vh as a fallback for browsers that do not support Custom Properties */
+  min-height: calc(var(--vh, 1vh) * 100);
+
 
   opacity: 0.3;
   z-index: -1;
@@ -163,6 +168,8 @@ img {
 
   width: 10px;
   min-height: 100vh;
+  /* Use vh as a fallback for browsers that do not support Custom Properties */
+  min-height: calc(var(--vh, 1vh) * 100);
 
   opacity: 0.3;
   z-index: -1;
@@ -178,6 +185,8 @@ img {
 
   width: 10px;
   min-height: 100vh;
+  /* Use vh as a fallback for browsers that do not support Custom Properties */
+  min-height: calc(var(--vh, 1vh) * 100);
   margin-left: 60px;
 
   opacity: 0.3;
