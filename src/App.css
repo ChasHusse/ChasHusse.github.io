@@ -876,6 +876,7 @@ main,
 
   .port-single {
     flex-direction: column;
+    max-height: none;
   }
 
   .port-images {
