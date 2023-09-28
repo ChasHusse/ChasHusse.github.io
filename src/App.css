@@ -358,7 +358,7 @@ input:focus {
   outline: none;
 }
 
-form button {
+.ac_btn {
   color: #F7DF1E !important;
   border: 1.3px solid #F7DF1E;
   padding: 4px 15px;
@@ -370,11 +370,24 @@ form button {
   color: white;
   align-self: flex-start;
   transition: all 0.15s ease-in-out;
-
-
 }
 
-form button:hover {
+#message-sent {
+  color: rgb(45, 103, 45);
+  -webkit-text-stroke: 0.3px white;
+  font-weight: 500;
+  font-size: 30px;
+  text-decoration: underline;
+
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.ac_btn:hover {
   background-color: rgba(247, 223, 30, 0.2);
   color: white !important;
   cursor: pointer;
@@ -624,6 +637,25 @@ form button:hover {
 }
 
 
+main,
+#about-page,
+#portfolio-page,
+#contact-page {
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
 
 @media (max-width: 1175px) {
   #home-image {
@@ -794,7 +826,7 @@ form button:hover {
     margin-top: -25px;
   }
 
-  form button {
+  .ac_btn {
     width: 70px;
   }
 

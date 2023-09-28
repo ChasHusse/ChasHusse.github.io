@@ -18,6 +18,10 @@ export default function HomePage() {
                     <h2 className="codeName">REACT</h2>
                     <h2 className="codeName">NODE JS</h2>
                     <h2 className="codeName">EXPRESS JS</h2>
+                    <h2 className="codeName">MONGO DB</h2>
+                    <h2 className="codeName">DOCKER</h2>
+                    <h2 className="codeName">FIGMA</h2>
+                    <h2 className="codeName">AGILE</h2>
                 </div>
             </section>
             <section id="section-right">
