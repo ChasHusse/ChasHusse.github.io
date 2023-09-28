@@ -37,7 +37,7 @@ export default function ContactPage() {
             <h2 className="test11">Lets start something <span className="fat-font">great together.</span></h2>
             <div id="contact-information">
                 <form ref={form} onSubmit={sendEmail}>
-                    {showMessage ? <p id="message-sent">Message sent successfully!</p> : ""}
+
 
                     <input
                         className="form-control"
@@ -56,10 +56,10 @@ export default function ContactPage() {
                         required
                     />
                     <textarea
-                        className="form-control rounded-0"
+                        className={showMessage ? "message-sent" : ""}
                         id="message"
                         name="message"
-                        placeholder="Message"
+                        placeholder={showMessage ? "Message sent successfully" : "Message"}
                         rows="5"
                         required
                     ></textarea>

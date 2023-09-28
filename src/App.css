@@ -353,6 +353,14 @@ form textarea {
   transition: all 0.15s ease-in-out;
 }
 
+.message-sent::placeholder {
+  text-align: center;
+  font-size: 18px;
+  color: rgb(28, 129, 28);
+  font-weight: 500;
+}
+
+
 form input::placeholder,
 form textarea::placeholder {
   color: white;
