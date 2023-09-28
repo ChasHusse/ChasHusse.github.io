@@ -576,6 +576,7 @@ input:focus {
   flex-direction: column;
   row-gap: 15px;
   margin-top: 20px;
+
 }
 
 .port-single {
@@ -592,6 +593,8 @@ input:focus {
 
   opacity: 0.85;
   transition: all 0.15s ease-in-out;
+
+  max-height: 140px;
 }
 
 .port-single:hover {
