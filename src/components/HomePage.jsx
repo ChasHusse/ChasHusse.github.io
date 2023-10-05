@@ -9,7 +9,7 @@ export default function HomePage() {
                 <p id="greeting-paragraph">Hello, I'm a</p>
                 <h1 id="professional-title">FULLSTACK DEVELOPER</h1>
                 <div id="information-paragraph">
-                    <p>I am a junior JavaScript full stack developer with a great interest for the web. My goal is to leave beautiful and functional trace after me for the world to experience!  </p>
+                    <p>I am a junior Javascript full stack developer with a great interest for the web. My goal is to leave beautiful and functional trace after me for the world to experience!  </p>
                 </div>                <Link id="more-about-me" to="/about">More about me...</Link>
                 <div id="codes">
                     <h2 className="codeName">HTML</h2>

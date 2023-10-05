@@ -4,7 +4,7 @@ export default function AboutPage() {
             <h2 id="about-me">About Me</h2>
             <p className="test11">Get to know <span className="fat-font">me.</span></p>
             <div id="about-page-text-div">
-                <p className="text-about-me">My name is Hussein Yousif and I live in Stockholm, Sweden.
+                <p className="text-about-me">My name is Hussein Yousif and I live in Västerås, Sweden.
                     I am a creative guy with a great passion for creating things that both looks and works great, whether it is for the web or reality.
                 </p>
                 <p className="text-about-me">I am currently studying my second year as a <a id="chas-academy-link" href="https://chasacademy.se/program/fullstackutvecklare-javascript" target="_blank">JavaScript full stack developer at Chas Academy</a> and will graduate in May 2024.</p>
