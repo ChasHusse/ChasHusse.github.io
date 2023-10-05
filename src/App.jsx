@@ -21,10 +21,10 @@ export default function App() {
       <div className="background4"></div>
       <Header></Header>
       <Routes>
-        <Route path='/' element={<HomePage />} />
-        <Route path='/about' element={<AboutPage />} />
-        <Route path='/portfolio' element={<PortfolioPage />} />
-        <Route path='/contact' element={<ContactPage />} />
+        <Route path='' element={<HomePage />} />
+        <Route path='about' element={<AboutPage />} />
+        <Route path='portfolio' element={<PortfolioPage />} />
+        <Route path='contact' element={<ContactPage />} />
       </Routes>
 
       <footer>
