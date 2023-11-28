@@ -609,6 +609,11 @@ input:focus {
   opacity: 1;
 }
 
+.port-single a {
+  color: #F7DF1E;
+  font-weight: 600;
+}
+
 
 
 .port-images {
