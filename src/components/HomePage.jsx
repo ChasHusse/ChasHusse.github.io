@@ -16,6 +16,8 @@ export default function HomePage() {
                     <h2 className="codeName">CSS</h2>
                     <h2 className="codeName">JAVASCRIPT</h2>
                     <h2 className="codeName">REACT</h2>
+                    <h2 className="codeName">Typescript</h2>
+                    <h2 className="codeName">Vue</h2>
                     <h2 className="codeName">NODE JS</h2>
                     <h2 className="codeName">EXPRESS JS</h2>
                     <h2 className="codeName">MONGO DB</h2>
